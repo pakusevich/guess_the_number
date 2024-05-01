@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/37b3771f_wallpaper-for-desktop-and-phone-by-rita-morozova-n-07.jpg);
+}
+
+button {
+    border-radius: 10px;
+    border: ridge;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+p,
+span {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 70px;
+    color: orange;
+}
+
+.info p {
+    margin: 5px;
+}
+
+.btn {
+    width: 70px;
+    height: 50px;
+}
+
+.restart {
+    margin-top: 30px;
+}
+
+.restart button {
+    width: 200px;
+    height: 60px;
+}
